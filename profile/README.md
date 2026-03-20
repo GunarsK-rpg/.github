@@ -4,7 +4,7 @@ A character sheet management application for the **Cosmere RPG (Stormlight Campa
 
 Built with **Go**, **Vue 3**, and **PostgreSQL** following a stored-function architecture where all business logic lives in the database.
 
-**Live:** [rpg.gunarsk.com](https://rpg.gunarsk.com/)
+[![Live App](https://img.shields.io/badge/Live_App-rpg.gunarsk.com-blue?style=for-the-badge)](https://rpg.gunarsk.com/)
 
 ---
 
@@ -28,11 +28,9 @@ Built with **Go**, **Vue 3**, and **PostgreSQL** following a stored-function arc
 | | Repository | Stack | Description |
 |---|------------|-------|-------------|
 | :floppy_disk: | [**database**](https://github.com/GunarsK-rpg/database) | PostgreSQL / Flyway | Schema, versioned migrations, stored functions, audit logging |
-| :seedling: | [**database-seeds**](https://github.com/GunarsK-rpg/database-seeds) | SQL | Classifier data, NPC adversaries, game content |
 
 ### Infrastructure & Reference
 
 | | Repository | Stack | Description |
 |---|------------|-------|-------------|
 | :whale: | [**infrastructure**](https://github.com/GunarsK-rpg/infrastructure) | Docker Compose / Traefik | Local development environment |
-| :book: | [**fabrials**](https://github.com/GunarsK-rpg/fabrials) | Markdown | Game world reference documents |
