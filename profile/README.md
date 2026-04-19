@@ -1,6 +1,6 @@
-# Cosmere RPG Character Sheet Manager
+# RPG Character Sheet Manager
 
-A character sheet management application for the **Cosmere RPG (Stormlight Campaign Setting)**.
+A character sheet management application for tabletop RPG campaigns.
 
 Built with **Go**, **Vue 3**, and **PostgreSQL** following a stored-function architecture where all business logic lives in the database.
 
